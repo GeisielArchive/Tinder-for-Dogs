@@ -1,0 +1,152 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 0rem!important;
+}
+
+.font-size-gnm {
+  font-size: 2rem;
+}
+
+.white-bg-gnm {
+  background-color: whitesmoke;
+}
+
+.logo-size-gnm {
+  min-width: 100px;
+  height: 30px;
+}
+
+.rounded-dog-gnm {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+  margin: 30px;
+}
+
+.padding-top-gnm {
+  padding-bottom: 50px;
+}
+
+.padding-bottom-gnm {
+  padding-bottom: 40px;
+}
+
+/* ANDROID BUTTON */
+.btn-download-android {
+  color: white;
+  border-color: white;
+}
+
+.btn-download-android:hover {
+  color: black;
+  background-color: silver;
+  border-color: silver!important;
+}
+
+.btn-download-android:active  {
+  background-color: rgba(192, 192, 192, 0.349)!important;
+}
+
+/* APPLE BUTTON */
+.btn-download-apple {
+  color: black;
+  background-color: white;
+  border-color: white!important;
+}
+
+.btn-download-apple:hover {
+  color: black;
+  background-color: silver;
+  border-color: silver!important;
+}
+
+.btn-download-apple:active  {
+  background-color: rgba(192, 192, 192, 0.349)!important;
+}
+
+/*//////////////////// PRICE BUTTONS /////////////////////*/
+.btn-price-chihuahua {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-price-labrador {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-price-mastiff {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+/*///////////////////////////////////////////////*/
+.btn-price-chihuahua:hover {
+  background-color: black!important;
+  border-color: black!important;
+}
+
+.btn-price-labrador:hover {
+  background-color: #424649!important;
+  border-color: #424649!important;
+}
+
+.btn-price-mastiff:hover {
+  background-color: #424649!important;
+  border-color: #424649!important;
+}
+/*///////////////////////////////////////////////*/
+.btn-price-chihuahua:active {
+  background-color: #373b3e!important;
+  border-color: #424649!important;
+}
+
+.btn-price-labrador:active {
+  background-color: #373b3e!important;
+  border-color: #424649!important;
+}
+
+.btn-price-mastiff:active {
+  background-color: #373b3e!important;
+  border-color: #424649!important;
+}
+
+.mastiff-border {
+  border-color: black!important;
+}
+
+.mastiff-title-bg {
+  background-color: black!important;
+  border-color: black!important;
+}
